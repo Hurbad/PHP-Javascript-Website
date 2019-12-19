@@ -1,0 +1,162 @@
+/*Input bar */
+input{
+  width: 50%;
+  padding: 5px;
+  text color: #696969 ;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: ;
+  border-radius: 5px
+}
+
+
+/*Ranking ordered list*/
+ol{
+  color:white;
+  padding:5px 60px;
+
+
+}
+
+
+/*Button on Registration & Login*/
+button{
+  background-color:  #ff7f50;
+  color:  #696969 ;
+  padding: 5px 5px;
+  margin: 10px 0;
+  font-weight: bold;
+  border: #696969;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/*Navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 100;
+  overflow: hidden;
+  height: 30px;
+  background-color: #696969 ;
+  position:;
+  border: 0.5px solid #ff7f50;
+  border-radius: 30px;
+}
+
+/*font + background*/
+
+body {
+  font-family: 'Roboto';font-size: 16px;
+  background-image: url("https://www.xmple.com/wallpaper/hexagon-grey-orange-honeycomb-beehive-2960x1440-c2-696969-ff7f50-l2-25-314-a-30-f-5.svg");
+}
+
+/*position of the navbar items*/
+
+li {
+  float: left;
+}
+
+/*hover*/
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+   border-radius: 15px ;
+}
+
+/*Dropcounted style*/
+
+li.dropdown {
+  display: inline-block;
+  border-radius: 30px ;
+
+}
+
+/*dropdown*/
+
+.dropdown-content a:hover {
+  background-color: ;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Dropcounted style*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color: #696969;
+  border-radius: 30px ;
+  border: 1px solid #ff7f50;
+  border-top: 1px transparent #ff7f50;
+}
+
+.dropdown-content a {
+  color: #ff7f50;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+
+}
+
+
+/*Navbar position&styling*/
+
+li a {
+  display: block;
+  color: #ff7f50;
+  text-align: center;
+  padding: 5px 50px;
+  text-decoration: none;
+}
+
+/*main table*/
+
+table{
+border: 2px solid #ff7f50;
+border-radius:10px ;
+padding: 5px;
+
+
+}
+
+/*Rows & columns*/
+
+th, td {
+    border: 2px solid #ff7f50;
+    padding: 5px;
+
+
+}
+
+/*Main container*/
+main {
+  background-color: #696969 ;
+  width: 400px;
+  border-radius: 30px ;
+  border: 5px solid #ff7f50;;
+  padding: 5px;
+  margin: 10px;
+  top: 200px;
+  left: 650px;
+  position: absolute;
+
+}
+
+/*footer style*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 55px;
+  width: 400px;
+  background-color:#696969 ;
+  color: #ff7f50;
+  text-align: left;
+}
